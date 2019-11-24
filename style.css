@@ -1,0 +1,168 @@
+/* Though it works a bit, this CSS isn't organized at all. I had to create a bunch of new ID's just to 
+get some of these things to work and they are just randombly thrown around in this code. 
+I noticed this also doesn't work well when making the screen smaller. I wonder if 
+we can use boostrap as well as the current CSS library in unison?*/
+
+
+* {
+
+    font-family: 'Prata', serif;
+    font-size: 15px;
+}
+
+body {
+
+    background-image: url(img/backgroundpic.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+#main-body {
+
+    min-height: 850px;
+    color: black;
+    
+}
+
+#mainBodyContact {
+
+    min-height: 850px;
+    color: black;
+}
+
+#contactPage{
+
+    background-color:lightsteelblue;
+    padding: 50px;
+}
+
+.card-panel {
+
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+}
+
+#randomButton {
+
+    margin: 25px;
+    width: 175px;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+img {
+
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+iframe{
+
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+img:hover {
+
+    zoom: 1.5;
+}
+
+iframe:hover {
+
+    zoom: 1.5;
+}
+
+i {
+    
+   margin-top: 0px;
+}
+
+#dropDownBar {
+
+    background-color: lightskyblue;
+    border-radius: 15px;
+    
+}
+
+#userInputBox {
+
+    border-radius: 20px;
+  
+   
+}
+
+#searchButton {
+    
+    border-radius: 20px;
+    background-color: lightskyblue;
+}
+
+#randomButton {
+
+    margin-top: 20px;
+}
+
+p{
+
+    font-size-adjust: initial;
+  letter-spacing: 1px;
+  text-align: start;
+  font-size: 25px;
+}
+
+li{
+
+    column-gap: 0vmin;
+    font-size: 16px;
+    letter-spacing: 1px;
+   text-align: left;
+   font-size: 25px;
+}
+
+#mainContent {
+    
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+    
+}
+
+
+#label {
+
+    float: left;
+    margin-left: 2px;
+}
+
+ #about{
+
+     background-color: lightgoldenrodyellow;
+ }
+
+ h3 {
+
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+ }
+
+ #mainBodyAbout {
+
+    min-height: 700px;
+    color: black;
+    align-content: center;
+    margin-top: 100px;
+    
+}
+
+#teamMembers {
+
+    margin-left: 25%
+}
+
+#about {
+
+    border-radius: 100px;
+}
