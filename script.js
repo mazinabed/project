@@ -2,8 +2,8 @@
 var category = '';
 var apiKey = '9973533';
 
-var randomMealsURL = 'http://www.themealdb.com/api/json/v2/' + apiKey + '/random.php';
-var categoryMealURL = 'http://www.themealdb.com/api/json/v2/' + apiKey + '/filter.php?c=' + category;
+var randomMealsURL = 'https://www.themealdb.com/api/json/v2/' + apiKey + '/random.php';
+var categoryMealURL = 'https://www.themealdb.com/api/json/v2/' + apiKey + '/filter.php?c=' + category;
 
 
 var alcoholType = '';
@@ -131,7 +131,7 @@ function searchMealName() {
 
     var mealSpaceName = document.getElementById('userInput').value;
 
-    var mealNameURL = 'http://www.themealdb.com/api/json/v2/' + apiKey + '/search.php?s=' + mealSpaceName;
+    var mealNameURL = 'https://www.themealdb.com/api/json/v2/' + apiKey + '/search.php?s=' + mealSpaceName;
 
     $('#mainContent').empty();
 
@@ -182,7 +182,7 @@ function searchMealName() {
 			<h5>Video Recipe</h5>
 			<div class="videoWrapper">
 				<iframe width="420" height="315"
-				src="http://www.youtube.com/embed/${response.meals[i].strYoutube.slice(-11)}">
+				src="https://www.youtube.com/embed/${response.meals[i].strYoutube.slice(-11)}">
 				</iframe>
             </div>
             <hr>
